@@ -1,0 +1,24 @@
+$beige-light: #EAECEA;
+$beige-dark: #D6A470;
+$red: #CF5454;
+$blue: #739DB7;
+$dark-blue: #2E3C62;
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    width: 130px;
+    height: 45px;
+    color: $dark-blue;
+    background-color: $beige-dark;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 13px;
+}
+
+button:hover {
+    box-shadow: 10px 10px 15px $beige-light;
+    cursor: pointer;
+}
